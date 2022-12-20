@@ -1,0 +1,216 @@
+  .container {
+    text-align: center;
+  }
+
+  .content,
+  .item-box {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+
+  .contain,
+  .box1 {
+    width: 400px;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .box2 {
+    width: 600px;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .event-list {
+    padding-bottom: 15px;
+  }
+
+  .event-list ul {
+    text-align: left;
+    height: 270px;
+    width: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-left: 10px;
+  }
+
+  .event-list li {
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  
+  .contain h2,
+  .item-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contain .el-box,
+  .item-box .el-box {
+    position: relative;
+  }
+  
+  .contain .el-box input,
+  .item-box .el-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .contain .el-box label,
+  .item-box .el-box label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .contain {
+    background: linear-gradient(#141e30, #243b55);
+    border-radius: 10px;
+  }
+  .contain form {
+    margin-top: 50px;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #03e9f4;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 2px
+  }
+
+  .btn:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 0px #03e9f4,
+                0 0 0px #03e9f4;
+  }
+
+  #edit-event .contain form,
+  #create-event .contain form {
+    margin-top: 0px;
+  }
+
+  #create-event .contain {
+    height: 600px;
+  }
+
+  .select-menu {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .select-menu option {
+    background-color: rgb(232, 232, 232);
+    color: black;
+  }
+
+  .el-box textarea {
+    margin-left: -32px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 130%;
+    height: 150px;
+    font-size: 14px;
+    resize: none;
+    border-radius: 10px;
+    border: 0px;
+  }
+
+  .event-list ul {
+    text-align: left;
+    height: 280px;
+    width: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-left: 10px;
+}
+
+.event-list li {
+    padding-bottom: 10px;
+    color: #34495e;
+    background-color: #f4f4f4;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#event-name {
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+#event-btn {
+  margin-left: 180px;
+  text-decoration: underline;
+}
+#event-btn:hover {
+  color: #03e9f4;
+}
+
+#edit-event .contain {
+  height: 630px;
+}
+
+.del-btn {
+  color: #03e9f4;
+  text-decoration: underline;
+}
+
+.del-btn:hover {
+  color: #fff;
+}
